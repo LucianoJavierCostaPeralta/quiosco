@@ -45,7 +45,7 @@ export const OrderCard = ({ order }) => {
                   Cantidad : <span>{item.count}</span>
                 </p>
                 <p className="text-2xl ">
-                  Cantidad : <span>{formateCurrency(item?.price)}</span>
+                  Precio : <span>{formateCurrency(item?.price)}</span>
                 </p>
               </div>
             </div>
